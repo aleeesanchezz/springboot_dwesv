@@ -1,12 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Hola Mundo</title>
 </head>
 <body>
-<h1>Alejandro Sánchez Olivera</h1>
-Hola Mundo desde Spring Boot.
+    <h1>Alejandro Sánchez Olivera</h1>
+    <p th:text="|Hola, ${nombre}!|" >Hola Mundo desde Spring Boot.</p>
 </body>
 </html>
